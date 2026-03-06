@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ============================================================
+       PAGE TITLE & SEO META
+       Update description if services or location change
+  ============================================================ -->
+  <title>ChosenOne LLC Cleaning Services – Hattiesburg, MS</title>
+  <meta name="description" content="Professional cleaning services in Hattiesburg, MS and surrounding counties. House cleaning, office cleaning, carpet cleaning, laundry, and more. Call 601-688-0842.">
+
+  <!-- ============================================================
+       GOOGLE FONTS
+       Cormorant Garamond = elegant display headings
+       DM Sans = clean, modern body text
+  ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- ============================================================
+       BOOTSTRAP 5 — grid, navbar, cards, carousel, forms
+  ============================================================ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+
+  <!-- ============================================================
+       FONT AWESOME — icons throughout the page
+  ============================================================ -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- ============================================================
+       SITE STYLESHEET
+  ============================================================ -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVBAR
+       Sticky. Dark purple background. Logo + links + call button.
+  ============================================================ -->
+  <nav class="navbar navbar-expand-lg site-nav">
+    <div class="container">
+
+      <!-- Brand / logo text — replace with <img> if a logo file is provided -->
+      <a class="navbar-brand" href="#">
+        <span class="nav-logo-drop"><i class="fas fa-droplet"></i></span>
+        <span class="nav-brand-text">ChosenOne <span class="nav-brand-llc">LLC</span></span>
+      </a>
+
+      <!-- Mobile hamburger toggle -->
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Nav links + CTA -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-center gap-1">
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <!-- Phone CTA — update if number changes -->
+          <li class="nav-item ms-2">
+            <a href="tel:+16016880842" class="btn-call">
+              <i class="fas fa-phone"></i> 601-688-0842
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- END NAVBAR -->
+
+
+  <!-- ============================================================
+       HERO SECTION
+       Bold purple with gold accents. Tagline + CTAs.
+       Background set in CSS so it's easy to swap.
+  ============================================================ -->
+  <section class="hero" id="home">
+    <!-- Overlay for text contrast -->
+    <div class="hero-overlay"></div>
+
+    <!-- Decorative sparkle elements (CSS-only, no images needed) -->
+    <div class="hero-sparkle hero-sparkle--1">✦</div>
+    <div class="hero-sparkle hero-sparkle--2">✦</div>
+    <div class="hero-sparkle hero-sparkle--3">✦</div>
+
+    <div class="container hero-content">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+
+          <!-- Location badge -->
+          <div class="hero-badge">
+            <i class="fas fa-map-marker-alt"></i>
+            Hattiesburg, MS &amp; Local Surrounding Counties
+          </div>
+
+          <!-- Main headline -->
+          <h1 class="hero-title">
+            <span class="hero-title-small">Professional</span>
+            Cleaning Services
+          </h1>
+
+          <!-- Tagline from the shirt -->
+          <p class="hero-tagline">"Cleanliness is our Business"</p>
+
+          <!-- Subheadline -->
+          <p class="hero-sub">
+            Residential, commercial, and specialty cleaning tailored to your needs.
+            Trusted by Hattiesburg families and businesses since day one.
+          </p>
+
+          <!-- CTA buttons -->
+          <div class="hero-btns">
+            <a href="#contact" class="btn-hero-primary">Book a Cleaning</a>
+            <a href="#pricing" class="btn-hero-outline">See Pricing</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END HERO -->
+
+
+  <!-- ============================================================
+       TRUST BAR
+       Five quick credibility signals below the hero.
+  ============================================================ -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="row g-3 justify-content-center">
+
+        <div class="col-6 col-md-auto">
+          <div class="trust-item">
+            <i class="fas fa-shield-alt"></i> Insured &amp; Professional
+          </div>
+        </div>
+
+        <div class="col-6 col-md-auto">
+          <div class="trust-item">
+            <i class="fas fa-star"></i> Residential &amp; Commercial
+          </div>
+        </div>
+
+        <div class="col-6 col-md-auto">
+          <div class="trust-item">
+            <i class="fas fa-clock"></i> Flexible Scheduling
+          </div>
+        </div>
+
+        <div class="col-6 col-md-auto">
+          <div class="trust-item">
+            <i class="fas fa-map-marker-alt"></i> Hattiesburg &amp; Surrounding Areas
+          </div>
+        </div>
+
+        <div class="col-6 col-md-auto">
+          <div class="trust-item">
+            <i class="fas fa-phone"></i> Free Estimates
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- END TRUST BAR -->
+
+
+  <!-- ============================================================
+       SERVICES SECTION
+       Two rows of cards covering all services from her flyer.
+  ============================================================ -->
+  <section class="services-section" id="services">
+    <div class="container">
+
+      <div class="section-header text-center">
+        <p class="section-label">What We Offer</p>
+        <h2 class="section-title">Every Corner. Every Room. Every Time.</h2>
+        <p class="section-sub mx-auto">
+          From regular house cleaning to deep appliance scrubs and move-in/move-out cleans —
+          we handle it all so you don't have to.
+        </p>
+      </div>
+
+      <!-- Row 1: Core cleaning services -->
+      <div class="row g-4 mb-4">
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-home"></i></div>
+            <h4>House Cleaning</h4>
+            <p>Regular residential cleaning covering all rooms, common spaces, kitchen, and bathrooms.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-building"></i></div>
+            <h4>Office Cleaning</h4>
+            <p>Keep your workspace clean, professional, and welcoming for employees and clients.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-couch"></i></div>
+            <h4>Carpet Cleaning</h4>
+            <p>Deep carpet cleaning that removes stains, odors, and allergens for a fresh, clean feel.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-window-maximize"></i></div>
+            <h4>Window Washing</h4>
+            <p>Crystal-clear windows inside and out — let the light back in.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-tshirt"></i></div>
+            <h4>Laundry Service</h4>
+            <p>Your clothes will be protected from damage, cleaned, and smelling fresh.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-icon"><i class="fas fa-spray-can"></i></div>
+            <h4>Sanitization</h4>
+            <p>Thorough sanitization of all high-contact surfaces for a healthier home or office.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Row 2: Specialty services -->
+      <div class="row g-4">
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="service-card service-card--accent">
+            <div class="service-icon service-icon--gold"><i class="fas fa-truck-moving"></i></div>
+            <h4>Move In / Move Out</h4>
+            <p>Deep clean before or after a move — leave it spotless for the next chapter.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="service-card service-card--accent">
+            <div class="service-icon service-icon--gold"><i class="fas fa-bed"></i></div>
+            <h4>Airbnb Cleaning</h4>
+            <p>Professional turnover cleaning to keep your guests happy and reviews five-star.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="service-card service-card--accent">
+            <div class="service-icon service-icon--gold"><i class="fas fa-glass-cheers"></i></div>
+            <h4>Before &amp; After Parties</h4>
+            <p>Standard cleaning before and after events so you can focus on the fun.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+          <div class="service-card service-card--accent">
+            <div class="service-icon service-icon--gold"><i class="fas fa-blender"></i></div>
+            <h4>Appliance Deep Clean</h4>
+            <p>Refrigerator ($100) and Oven ($150) deep cleaning — flat rate, no surprises.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- END SERVICES -->
+
+
+  <!-- ============================================================
+       PRICING SECTION
+       Two main tiers (Basic / Advanced) + important notices.
+       Prices pulled directly from her pricing sheet photo.
+  ============================================================ -->
+  <section class="pricing-section" id="pricing">
+    <div class="container">
+
+      <div class="section-header text-center">
+        <p class="section-label">Transparent Pricing</p>
+        <h2 class="section-title">Affordable Rates. No Surprises.</h2>
+        <p class="section-sub mx-auto">
+          All services completed in approved bedrooms, halls, common spaces, kitchen, and garage.
+        </p>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+
+        <!-- Basic Cleaning -->
+        <div class="col-lg-5">
+          <div class="pricing-card">
+            <div class="pricing-card-header">
+              <div class="pricing-icon"><i class="fas fa-broom"></i></div>
+              <h3>Basic Cleaning</h3>
+              <p class="pricing-includes">Vacuuming · Dusting · Mopping · Sanitizing high-contact surfaces · Trash removal (up to 3 bags)</p>
+            </div>
+            <div class="pricing-tiers">
+              <div class="pricing-tier">
+                <div class="tier-size">Small <span>up to 1,499 sq ft</span></div>
+                <div class="tier-price">$250 <span>/ 3 hrs</span></div>
+              </div>
+              <div class="pricing-tier">
+                <div class="tier-size">Medium <span>1,500–2,499 sq ft</span></div>
+                <div class="tier-price">$350 <span>/ 4 hrs</span></div>
+              </div>
+              <div class="pricing-tier">
+                <div class="tier-size">Large <span>2,500+ sq ft</span></div>
+                <div class="tier-price">$450 <span>/ 4.5 hrs</span></div>
+              </div>
+            </div>
+            <a href="#contact" class="btn-book">Book Basic Cleaning</a>
+          </div>
+        </div>
+
+        <!-- Advanced Cleaning -->
+        <div class="col-lg-5">
+          <div class="pricing-card pricing-card--featured">
+            <div class="pricing-featured-badge">Most Thorough</div>
+            <div class="pricing-card-header">
+              <div class="pricing-icon pricing-icon--gold"><i class="fas fa-star"></i></div>
+              <h3>Advanced Cleaning</h3>
+              <p class="pricing-includes">Everything in Basic + Interior windows &amp; mirrors · Laundry appliance cleaning · Exterior walkway sweeping · Trash removal (up to 5 bags)</p>
+            </div>
+            <div class="pricing-tiers">
+              <div class="pricing-tier">
+                <div class="tier-size">Small <span>up to 1,449 sq ft</span></div>
+                <div class="tier-price">$350 <span>/ 3.5 hrs</span></div>
+              </div>
+              <div class="pricing-tier">
+                <div class="tier-size">Medium <span>1,500–2,499 sq ft</span></div>
+                <div class="tier-price">$450 <span>/ 4.5 hrs</span></div>
+              </div>
+              <div class="pricing-tier">
+                <div class="tier-size">Large <span>2,500+ sq ft</span></div>
+                <div class="tier-price">$500 <span>/ 5 hrs</span></div>
+              </div>
+            </div>
+            <a href="#contact" class="btn-book btn-book--gold">Book Advanced Cleaning</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Appliance add-ons -->
+      <div class="appliance-addons">
+        <h4>Appliance Deep Cleaning</h4>
+        <div class="row g-3 justify-content-center">
+          <div class="col-sm-auto">
+            <div class="addon-item">
+              <i class="fas fa-snowflake"></i>
+              <span>Refrigerator</span>
+              <strong>$100 flat</strong>
+            </div>
+          </div>
+          <div class="col-sm-auto">
+            <div class="addon-item">
+              <i class="fas fa-fire"></i>
+              <span>Oven</span>
+              <strong>$150 flat</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Important notices — pulled from her pricing sheet -->
+      <div class="notices-box">
+        <h4><i class="fas fa-info-circle"></i> Important Notices</h4>
+        <ul>
+          <li>Payment is due the day/morning services are rendered.</li>
+          <li>24–48 hour cancellation notice required to avoid being charged.</li>
+          <li>$50 additional charge for homes with pets due to pet hair.</li>
+          <li>Please arrange to be away during service hours so we can work efficiently.</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  <!-- END PRICING -->
+
+
+  <!-- ============================================================
+       GALLERY / CAROUSEL SECTION
+       Placeholder slides — swap in real photos when Iesha provides them.
+       TO ADD PHOTOS: Replace .carousel-placeholder divs with
+       <img src="photo.jpg" class="d-block w-100 carousel-img" alt="...">
+  ============================================================ -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+
+      <div class="section-header text-center">
+        <p class="section-label">Our Work</p>
+        <h2 class="section-title">See the Difference</h2>
+        <p class="section-sub mx-auto">Real cleans, real results.</p>
+      </div>
+
+      <!-- Bootstrap carousel -->
+      <div id="chosenCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <!-- Dot indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#chosenCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#chosenCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#chosenCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#chosenCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+          <!-- SLIDE 1 -->
+          <div class="carousel-item active" data-bs-interval="4500">
+            <div class="carousel-placeholder">
+              <i class="fas fa-camera"></i>
+              <p>Add before &amp; after photo here</p>
+            </div>
+            <!-- Replace with: <img src="photo1.jpg" class="d-block w-100 carousel-img" alt="House cleaning result"> -->
+            <div class="carousel-caption">
+              <h5>House Cleaning</h5>
+              <p>Hattiesburg, MS</p>
+            </div>
+          </div>
+
+          <!-- SLIDE 2 -->
+          <div class="carousel-item" data-bs-interval="4500">
+            <div class="carousel-placeholder">
+              <i class="fas fa-camera"></i>
+              <p>Add before &amp; after photo here</p>
+            </div>
+            <div class="carousel-caption">
+              <h5>Deep Kitchen Clean</h5>
+              <p>Every surface sanitized</p>
+            </div>
+          </div>
+
+          <!-- SLIDE 3 -->
+          <div class="carousel-item" data-bs-interval="4500">
+            <div class="carousel-placeholder">
+              <i class="fas fa-camera"></i>
+              <p>Add before &amp; after photo here</p>
+            </div>
+            <div class="carousel-caption">
+              <h5>Carpet Cleaning</h5>
+              <p>Like-new results</p>
+            </div>
+          </div>
+
+          <!-- SLIDE 4 -->
+          <div class="carousel-item" data-bs-interval="4500">
+            <div class="carousel-placeholder">
+              <i class="fas fa-camera"></i>
+              <p>Add before &amp; after photo here</p>
+            </div>
+            <div class="carousel-caption">
+              <h5>Office Cleaning</h5>
+              <p>Professional &amp; spotless</p>
+            </div>
+          </div>
+
+        </div>
+        <!-- END carousel-inner -->
+
+        <!-- Prev/Next controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#chosenCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#chosenCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+      <!-- END Bootstrap Carousel -->
+
+    </div>
+  </section>
+  <!-- END GALLERY -->
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+       Dark purple. Left = contact info. Right = booking form.
+       Update form action once Iesha decides how she wants
+       to receive inquiries (email, Formspree, etc.)
+  ============================================================ -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="row g-5">
+
+        <!-- Left: contact info -->
+        <div class="col-lg-5">
+          <p class="section-label section-label--light">Get In Touch</p>
+          <h2 class="section-title section-title--light">Ready for a fresh start?</h2>
+          <p class="section-sub section-sub--light">
+            Call, email, or fill out the form to get a free estimate.
+            We'll get back to you within 24 hours.
+          </p>
+
+          <div class="contact-cards">
+
+            <!-- Phone -->
+            <a href="tel:+16016880842" class="contact-card">
+              <div class="contact-card-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">Call or Text</span>
+                <span class="contact-card-value">601-688-0842</span>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:chosenonellc@yahoo.com" class="contact-card">
+              <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">Email</span>
+                <span class="contact-card-value">chosenonellc@yahoo.com</span>
+              </div>
+            </a>
+
+            <!-- Location -->
+            <div class="contact-card contact-card--static">
+              <div class="contact-card-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-card-text">
+                <span class="contact-card-label">Service Area</span>
+                <span class="contact-card-value">Hattiesburg, MS &amp; Surrounding Counties</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- END left col -->
+
+        <!-- Right: booking form -->
+        <div class="col-lg-7">
+          <div class="booking-form">
+            <h3 class="booking-form-title">Request a Free Estimate</h3>
+
+            <!--
+              FORM ACTION:
+              Replace "REPLACE_WITH_ENDPOINT" with Iesha's preferred
+              form handler once confirmed — Formspree, email, etc.
+            -->
+            <form action="REPLACE_WITH_ENDPOINT" method="POST">
+
+              <!-- Name + Phone -->
+              <div class="row g-3 mb-3">
+                <div class="col-sm-6">
+                  <label for="name" class="form-label">Your Name *</label>
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Jane Smith" required>
+                </div>
+                <div class="col-sm-6">
+                  <label for="phone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="phone" name="phone" class="form-control" placeholder="(601) 555-0100" required>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="you@email.com">
+              </div>
+
+              <!-- Service type -->
+              <div class="mb-3">
+                <label for="service" class="form-label">Service Type *</label>
+                <select id="service" name="service" class="form-select" required>
+                  <option value="">— Select a service —</option>
+                  <optgroup label="Residential Cleaning">
+                    <option>Basic Cleaning</option>
+                    <option>Advanced Cleaning</option>
+                  </optgroup>
+                  <optgroup label="Specialty Services">
+                    <option>Appliance Deep Clean (Fridge or Oven)</option>
+                    <option>Carpet Cleaning</option>
+                    <option>Window Washing</option>
+                    <option>Laundry Service</option>
+                    <option>Move In / Move Out Clean</option>
+                    <option>Airbnb / Short-Term Rental Clean</option>
+                    <option>Before &amp; After Party Clean</option>
+                    <option>Office / Commercial Cleaning</option>
+                  </optgroup>
+                  <option>Not sure — need advice</option>
+                </select>
+              </div>
+
+              <!-- Home size -->
+              <div class="mb-3">
+                <label for="size" class="form-label">Home / Space Size</label>
+                <select id="size" name="size" class="form-select">
+                  <option value="">— Select size —</option>
+                  <option>Small (up to 1,499 sq ft)</option>
+                  <option>Medium (1,500–2,499 sq ft)</option>
+                  <option>Large (2,500+ sq ft)</option>
+                  <option>Not sure</option>
+                </select>
+              </div>
+
+              <!-- Address -->
+              <div class="mb-3">
+                <label for="address" class="form-label">Address / Area</label>
+                <input type="text" id="address" name="address" class="form-control" placeholder="Hattiesburg, MS">
+              </div>
+
+              <!-- Pets checkbox -->
+              <div class="mb-3">
+                <label class="form-label">Do you have pets? <span class="form-note">(+$50 pet hair fee)</span></label>
+                <div class="d-flex gap-3">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pets" id="petsYes" value="yes">
+                    <label class="form-check-label" for="petsYes">Yes</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="pets" id="petsNo" value="no">
+                    <label class="form-check-label" for="petsNo">No</label>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="mb-4">
+                <label for="message" class="form-label">Anything else we should know?</label>
+                <textarea id="message" name="message" class="form-control" rows="3"
+                  placeholder="Preferred dates, special requests, access instructions..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-book-submit">Send Request ✦</button>
+
+            </form>
+          </div>
+        </div>
+        <!-- END right col -->
+
+      </div>
+    </div>
+  </section>
+  <!-- END CONTACT -->
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center g-4">
+
+        <!-- Brand -->
+        <div class="col-md-4">
+          <p class="footer-brand">
+            <span class="footer-drop"><i class="fas fa-droplet"></i></span>
+            ChosenOne LLC
+          </p>
+          <p class="footer-tagline">"Cleanliness is our Business"</p>
+        </div>
+
+        <!-- Contact + copyright -->
+        <div class="col-md-4 text-md-center">
+          <p class="footer-phone"><a href="tel:+16016880842">601-688-0842</a></p>
+          <p class="footer-email"><a href="mailto:chosenonellc@yahoo.com">chosenonellc@yahoo.com</a></p>
+          <p class="footer-copy">&copy; 2026 ChosenOne LLC Cleaning Services. All rights reserved.</p>
+          <p class="footer-credit">Site by <a href="https://faerytech.net" target="_blank">Faery Tech</a></p>
+        </div>
+
+        <!-- Location -->
+        <div class="col-md-4 text-md-end">
+          <p class="footer-location">
+            <i class="fas fa-map-marker-alt"></i>
+            Hattiesburg, MS<br>
+            &amp; Surrounding Counties
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
+
+  <!-- ============================================================
+       SCRIPTS
+       Bootstrap bundle first, then our custom JS
+  ============================================================ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
