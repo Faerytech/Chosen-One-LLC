@@ -1037,7 +1037,7 @@ html {
 
 /* ================================================================
    10. FOOTER
-   Near-black background. Purple drop icon accent.
+   Near-black background.
 ================================================================ */
 
 .site-footer {
@@ -1045,28 +1045,32 @@ html {
   padding: 2.5rem 0;
 }
 
-/* Brand name in footer */
-.footer-brand {
-  font-family: var(--font-heading);
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--white);
-  margin-bottom: 0.25rem;
+/* Center column — flex column, centered on all screen sizes */
+.footer-center-col {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 0.4rem;
+  text-align: center;
 }
 
-/* Drop icon in footer brand */
-.footer-drop {
-  color: var(--gold-light);
+/* ChosenOne logo in footer center */
+.footer-logo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* ChosenOne logo in navbar */
+.nav-logo {
+  height: 60px;
+  width: auto;
 }
 
 .footer-tagline {
   font-style: italic;
   color: rgba(255, 255, 255, 0.45);
   font-size: 0.85rem;
-  margin: 0;
+  margin: 0 0 0.5rem;
 }
 
 .footer-phone,
@@ -1092,22 +1096,6 @@ html {
   margin: 0.25rem 0 0;
 }
 
-/* "Site by Faery Tech" credit */
-.footer-credit {
-  color: rgba(255, 255, 255, 0.25);
-  font-size: 0.72rem;
-  margin: 0.2rem 0 0;
-}
-
-.footer-credit a {
-  color: rgba(255, 255, 255, 0.35);
-  transition: color 0.2s ease;
-}
-
-.footer-credit a:hover {
-  color: var(--gold-light);
-}
-
 .footer-location {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.88rem;
@@ -1117,6 +1105,39 @@ html {
 .footer-location i {
   color: var(--gold-light);
   margin-right: 0.3rem;
+}
+
+/* Faery Tech credit block */
+.footer-faerytech-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.footer-faerytech-link:hover { opacity: 1; }
+
+.footer-faerytech-logo {
+  height: 44px;
+  width: auto;
+}
+
+.footer-faerytech-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-faerytech-label {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-faerytech-name {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--gold-light);
 }
 
 
@@ -1180,7 +1201,6 @@ html {
     justify-content: center;
   }
 
-  /* Pricing cards full width on tablet */
   .pricing-card--featured {
     margin-top: 1.5rem;
   }
@@ -1207,16 +1227,19 @@ html {
     padding: 1.5rem;
   }
 
-  /* Footer stack */
+  /* Footer — all columns centered on mobile */
   .site-footer .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-  }
-
-  .footer-brand {
-    justify-content: center;
   }
 
   .footer-location {
     text-align: center;
+  }
+
+  .footer-faerytech-link {
+    justify-content: center;
   }
 }
